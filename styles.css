@@ -1,0 +1,3 @@
+.test {
+  composes: dropdown from 'fyndiq-component-dropdown/styles.css';
+}
