@@ -2,8 +2,10 @@
 
 Steps to reproduce the bug:
 
-`npm i`
-`npm run build`
+```
+npm i
+npm run build
+```
 
 An error is thrown:
 
@@ -16,7 +18,7 @@ Module not found: Error: Can't resolve './fyndiq-styles-colors/colors.css' in '/
 
 The commit introducing the bug is [this one](https://github.com/webpack-contrib/css-loader/pull/698/commits/585b58b4af9b56ca9e771c4bb6ebdf1845bfcd8a). You can install the version of css-loader before this commit and it works fine
 
-````
+```
 npm i css-loader@0.28.10
 npm run build
 ```
